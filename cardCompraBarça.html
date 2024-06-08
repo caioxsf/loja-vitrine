@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styleCardCompraBarça.css">
+    <title>Comprar</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre nós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+        <div class="containerCard">
+            <div class="containerConteudo">
+                <img src="assets/img/barca1.jpg" class="imagensCamisa" id="imagemPrincipal">
+            </div>
+
+            <div class="containerConteudo">
+                
+                <div class="containerPreco">
+                    <h1 style="margin-left: 20px;">Camisa Barcelona - Nike</h1>
+                    <h2 style="margin-left: 20px;">R$70,00 <span><s>R$90,00</s></span></h2> 
+                    <p style="margin-left: 20px;">ou <strong>$85,00</strong> em até 6 vezes sem juros!</p>
+
+                    <button><a href="#">Comprar agora</a></button>
+                </div>
+                
+                <p>Tamanhos disponíveis</p>
+                <div class="tamanhos">
+                    <div><h2>P</h2></div>
+                    <div><h2>M</h2></div>
+                    <div style="filter: blur(2.5px); background-color: rgba(128, 128, 128, 0.46);"><h2>G</h2></div>
+                    <div><h2>GG</h2></div>
+                </div>
+
+                <div class="fotosCards">
+                    <div><img src="assets/img/barca1.jpg" id="img1" onclick="trocarImagem(event)"></div>
+                    <div><img src="assets/img/barca2.jpg" id="img2" onclick="trocarImagem(event)"></div>
+                    <div><img src="assets/img/barca3.jpg" id="img3" onclick="trocarImagem(event)"></div>
+                    <div><img src="assets/img/barca4.jpg" id="img4" onclick="trocarImagem(event)"></div>
+                </div>
+
+            </div>
+        </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

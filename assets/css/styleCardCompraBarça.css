@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header
+{
+    background-color: #D9D9D9;
+    display: block;
+    padding: 12px;
+}
+
+ul
+{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+nav li
+{
+    list-style-type: none;
+}
+
+nav a
+{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.containerCard
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.containerConteudo
+{
+    width: 500px;
+    height: 500px;
+}
+
+.imagensCamisa
+{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.containerPreco
+{
+    width: 500px;
+    height: 330px;
+    /* border: 1px solid red; */
+}
+
+.containerPreco span
+{
+    color: rgb(185, 185, 185);
+    font-size: 14px;
+}
+
+.tamanhos
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 20px;
+}
+
+.tamanhos div
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: rgba(128, 128, 128, 0.26);
+}
+
+.tamanhos div h2
+{
+    color: rgb(83, 83, 83);
+    text-align: center;
+    position: relative;
+    top: 6px;
+}
+
+.fotosCards
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.fotosCards div
+{
+    width: 50px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.fotosCards div img
+{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.containerCard p
+{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.containerConteudo button
+{
+    position: relative;
+    margin-left: 20px;
+    top: 160px;
+    padding: 12px;
+    width: 180px;
+    border-radius: 6px;
+    border: none;
+    background-color: #4BCC96;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.containerConteudo button a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.containerConteudo button:hover
+{
+    background-color: #34ad7b;
+    transform: scale(1.05);
+}

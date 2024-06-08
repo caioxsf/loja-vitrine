@@ -1,0 +1,115 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header
+{
+    background-color: #D9D9D9;
+    display: block;
+    padding: 12px;
+}
+
+ul
+{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+nav li
+{
+    list-style-type: none;
+    transition: 0.3s ease-in-out;
+}
+
+nav a
+{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+nav li:hover
+{
+    transform: scale(1.06);
+}
+
+.containerLoja
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+.containerLoja h1
+{
+    margin-bottom: 100px;
+}
+
+/* hr
+{
+    border-bottom: 1px solid white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin-top: 100px;
+} */
+
+.containerRoupa
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 150px;
+    margin: 50px;
+
+    flex-wrap: wrap;
+
+    margin-top: 50px;
+}
+
+/* container do nome e preço */
+.containerTamanhoRoupa
+{
+    width: 250px;
+    height: 350px;
+    transition: 0.3s ease-in-out;
+    /* border: 1px solid black; */
+}
+
+.containerTamanhoRoupa:hover
+{
+    transform: scale(1.06);
+}
+
+/* container da camisa com o background */
+.containerTamanhoRoupa div
+{
+    width: 250px;
+    height: 280px;
+    margin-bottom: 5px;
+    /* border: 1px solid red; */
+}
+
+/* se quiser que o texto fique enquadrado corretamente */
+
+/* .containerTamanhoRoupa p
+{
+    text-align: justify;
+} */
+
+.containerTamanhoRoupa .preco
+{
+    color: #595959;
+}
+
+.imagensCamisa
+{
+    width: 250px;
+    height: 280px;
+    object-fit: cover;
+}
